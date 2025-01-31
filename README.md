@@ -5,13 +5,13 @@ In Tools (tools dir)
     - set PYTHONIOENCODING=utf-8
 
 
-    ls/blackbird
+    cd /blackbird
         - pip3 install -r requirements.txt
     
-    ls/marple
+    cd /marple
         - pip3 install -r requirements.txt
     
-    ls/sherlock
+    cd /sherlock
         - pip3 install -r requirements.txt
         - winpty docker run -it --rm sherlock/sherlock
 
