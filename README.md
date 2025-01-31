@@ -1,4 +1,5 @@
 In Tools (tools dir)
+
     - Start the docker desktop
     - pip install --upgrade aiohttp aiohttp_socks
     - set PYTHONIOENCODING=utf-8
@@ -15,8 +16,10 @@ In Tools (tools dir)
         - winpty docker run -it --rm sherlock/sherlock
 
 In ./ (Project dir)
+
     - npm i axios, cors, dotenv, express, http-status-codes, http, node, nodemon
 
 Changes
+
     - [.env file in ./] write the port number in there
     - Change the path for tools in ./src/utils/common/paths.js
